@@ -5,7 +5,7 @@ Algoritmo Veterinaria
     
     registros <- Vacio
     
-    Mientras opcion <> 4 Hacer
+    Mientras opcion <> 0 Hacer
         Escribir "-- MENU VETERINARIA --"
         Escribir "[1] Agregar mascota atendida"
         Escribir "[2] Consultar mascota atendida"
@@ -39,7 +39,7 @@ Algoritmo Veterinaria
                     FinSi
                 FinPara
                 Si encontrado = Falso Entonces
-                    Escribir "No se encontró la mascota con la clave ingresada"
+                    Escribir "No se encontrÃ³ la mascota con la clave ingresada"
                 FinSi
 				
             3:  Si Longitud(registros) = 0 Entonces
