@@ -55,7 +55,7 @@ Algoritmo Veterinaria
                     FinPara
                 FinSi
 				
-            4:  Escribir "-- Fin del programa --"
+            0:  Escribir "-- Fin del programa --"
 				
             De Otro Modo: Escribir "Opcion invalida. Intente de nuevo"
         FinSegun
