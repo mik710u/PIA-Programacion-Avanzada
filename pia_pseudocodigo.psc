@@ -34,7 +34,7 @@ Algoritmo Veterinaria
                         Escribir "Especie:", registros[i+2]
                         Escribir "Raza:", registros[i+3]
                         Escribir "Peso:", registros[i+4]
-						Escribir "Fecha:", registros[i+4]
+			Escribir "Fecha:", registros[i+5]
                         encontrado <- Verdadero
                     FinSi
                 FinPara
@@ -46,12 +46,12 @@ Algoritmo Veterinaria
                     Escribir "No hay registros"
                 Sino
                     Para i <- 1 Hasta Longitud(registros) Con Paso 5 Hacer
-						Escribir "Clave:", registros[i]
+			Escribir "Clave:", registros[i]
                         Escribir "Nombre:", registros[i+1]
                         Escribir "Especie:", registros[i+2]
                         Escribir "Raza:", registros[i+3]
                         Escribir "Peso:", registros[i+4]
-						Escribir "Fecha:", registros[i+4]
+			Escribir "Fecha:", registros[i+5]
                     FinPara
                 FinSi
 				
