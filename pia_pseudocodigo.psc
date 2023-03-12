@@ -20,7 +20,7 @@ Algoritmo Veterinaria
                 Leer especie
                 Leer raza
                 Leer peso
-				Leer fecha_consul
+		Leer fecha_consul
                 registros <- registros + [clave, nombre, tipo, raza, peso, fecha_consul]
                 Escribir "Se ha registrado la mascota"
 				
